@@ -63,6 +63,6 @@ If you like this portfolio, consider giving the repo a ⭐️ and sharing your f
 ---
 
 ## 📜 License
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [Apache 2.0 License](LICENSE).
 
 Feel free to fork, customize, and use it for your own personal site!
