@@ -58,7 +58,8 @@
     #projects { background-image: url('images/bg_2.jpg'); }
     #contact { background-image: url('images/bg_3.jpg'); }
     #skills { background-image: url('images/bg_4.jpg'); }
-    #hero > div, #projects > div, #contact > div, #skills > div {
+    #certifications { background-image: url('images/bg_5.jpg'); }
+    #hero > div, #projects > div, #contact > div, #skills > div, #certifications > div {
       position: relative; z-index: 1;
     }
     
@@ -119,6 +120,7 @@
         <a href="#about" class="hover:text-white">About</a>
         <a href="#skills" class="hover:text-white">Skills</a>
         <a href="#quote" class="hover:text-white">Quote</a>
+        <a href="#certifications" class="hover:text-white">Certifications</a>
         <a href="#projects" class="hover:text-white">Projects</a>
         <a href="#resume" class="hover:text-white">Resume</a>
         <a href="#contact" class="hover:text-white">Contact</a>
@@ -169,6 +171,17 @@
         "I am a Man of Fortune, and must seek my Fortune."
       </p>
       <p class="text-lg text-black" data-aos="fade-up" data-aos-delay="100">- Captain Henry Avery (Uncharted 4: A Thief's End)</p>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications" class="py-24">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12 text-white text-shadow" data-aos="fade-down">My Certifications</h2>
+      <div id="badge-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+      <div class="text-center">
+        <button id="show-more-badges" class="mt-8 inline-block px-6 py-3 bg-gray-700 text-white font-semibold rounded hover:bg-gray-600 transition">Show More</button>
+      </div>
     </div>
   </section>
 
